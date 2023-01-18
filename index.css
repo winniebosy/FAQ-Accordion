@@ -39,8 +39,38 @@ body {
     font-size: 110%;
 }
 
-@media screen and (max-width: 820px) {
+.accordion-panel {
+    display: none;
+}
+
+.icon-collapsed {
+    display: inline-block;
+}
+
+.accordion-panel[data-state='expanded'] {
+    display: block;
+}
+
+.icon-expanded {
+    display: none;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+button {
+    width: 100%;
+}
+
+.accordion-icon {
+    padding: 0 0.5rem;
+    margin-right: 1rem;
+}
+
+.
+/* @media screen and (max-width: 820px) {
     body {
         background-color: red;
     }
-}
+} */
